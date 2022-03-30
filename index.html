@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="search">
+        <img src="logos/search.svg" alt="search" class="search">
+        <input type="text" placeholder="Search...">
+      </div>
+      <div class="top-right">
+        <img src="logos/notifications.svg" alt="notifications" class="notifications">
+        <img src="avatars/panda.png" alt="panda avatar for main user" class="user-logo">
+        <span>Michela Bicocchi</span>
+      </div>
+      <div class="welcome">
+        <img src="avatars/panda.png" alt="panda avatar for main user">
+        <div>
+          <div class="hi">Hi there,</div>
+          <h2 class="name">Michela Bicocchi (@purpett)</h2>
+        </div>
+      </div>
+      <div class="buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-content">
+        <div class="head">
+          <h1><img class="dash-icon" src="logos/dashboard.svg" alt="dashboard icon"> Dashboard</h1>
+        </div>
+        <div class="nav">
+          <div class="nav-top">
+            <div class="sidebar-link">
+              <img src="logos/home.svg" alt="home icon" class="home"> 
+              <a href="">Home</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/profile.svg" alt="profile icon" class="profile"> 
+              <a href="">Profile</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/messages.svg" alt="messages icon" class="messages"> 
+              <a href="">Messages</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/history.svg" alt="history icon" class="history"> 
+              <a href="">History</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/tasks.svg" alt="tasks icon" class="tasks"> 
+              <a href="">Tasks</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/community.svg" alt="community icon" class="communities"> 
+              <a href="">Communities</a>
+            </div>
+          </div>
+          <div class="nav-bottom">
+            <div class="sidebar-link">
+              <img src="logos/settings.svg" alt="settings icon" class="settings"> 
+              <a href="">Settings</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/support.svg" alt="support icon" class="support"> 
+              <a href="">Support</a>
+            </div>
+            <div class="sidebar-link">
+              <img src="logos/privacy.svg" alt="privacy icon" class="privacy"> 
+              <a href="">Privacy</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer">Made by @purpett <a href="https://github.com/purpett" target="_blank"><img class="octocat" src="octocat.svg" width="20" height="20"></a></div>
+      </div>
+    </div> 
+
+    <div class="content">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="cards-container">
+          <div class="card"> 
+            <h4 class="title">Super Cool Project</h4>
+            <p class="text">Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilisis felis accumsan nec.</p>
+            <div class="card-actions">
+              <img src="logos/fave.svg" alt="add to favourite icon">
+              <img src="logos/watch.svg" alt="watch icon">
+              <img src="logos/fork.svg" alt="fork icon">
+            </div>
+          </div>
+          <div class="card"> 
+            <h4 class="title">Less Cool Project</h4>
+            <p class="text">Nullam condimentum ipsum ut lectus vehicula
+              consectetur. Quisque sed dolor tincidunt,
+              consectetur sapien et, facilisis dolor. Duis sem
+              purus, dignissim ut sapien in, varius
+              pellentesque lacus.</p>
+            <div class="card-actions">
+              <img src="logos/fave.svg" alt="add to favourite icon">
+              <img src="logos/watch.svg" alt="watch icon">
+              <img src="logos/fork.svg" alt="fork icon">
+            </div>
+          </div>
+          <div class="card"> 
+            <h4 class="title">Impossible App</h4>
+            <p class="text">In hac habitasse platea dictumst. Vivamus
+              dictum rutrum arcu, a placerat velit sagittis
+              id.</p>
+            <div class="card-actions">
+              <img src="logos/fave.svg" alt="add to favourite icon">
+              <img src="logos/watch.svg" alt="watch icon">
+              <img src="logos/fork.svg" alt="fork icon">
+            </div>
+          </div>
+          <div class="card"> 
+            <h4 class="title">Easy Peasy App</h4>
+            <p class="text">Etiam cursus eros ac efficitur fringilla.
+              Vestibulum dignissim urna get accumsan
+              aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidunt.</p>
+            <div class="card-actions">
+              <img src="logos/fave.svg" alt="add to favourite icon">
+              <img src="logos/watch.svg" alt="watch icon">
+              <img src="logos/fork.svg" alt="fork icon">
+            </div>
+          </div>
+          <div class="card"> 
+            <h4 class="title">Ad Blocker</h4>
+            <p class="text">Quisque eget rutrum isl. Nam auque
+              justo, cursus vitae metus vel, pharetra
+              hendrerit felis. Aliquam sed malesuada
+              eros.</p>
+            <div class="card-actions">
+              <img src="logos/fave.svg" alt="add to favourite icon">
+              <img src="logos/watch.svg" alt="watch icon">
+              <img src="logos/fork.svg" alt="fork icon">
+            </div>
+          </div>
+          <div class="card"> 
+            <h4 class="title">Money Maker</h4>
+            <p class="text">Present convallis, libero quis congue
+              elementum, nunc ante faucibus sapien, ac
+              scelerisque tortor purus sit amet ex.
+              Pellentesque mollis nec sem vel aliquam</p>
+            <div class="card-actions">
+              <img src="logos/fave.svg" alt="add to favourite icon">
+              <img src="logos/watch.svg" alt="watch icon">
+              <img src="logos/fork.svg" alt="fork icon">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="announcements">
+        <h3>Announcements</h3>
+        <div class="news-list">
+          <div class="mnt">
+            <h4 class="title">Site Maintenance</h4>
+            <p class="text"> Vestibulum condimentum tells lacus,
+              in accumsan elit maximus ac. Donec
+              hendrerit sodales congue...</p>
+          </div>
+          <div class="share">
+            <h4 class="title">Community Share Day</h4>
+            <p class="text"> Nam vel lectus tincidunt, rutrum nulla
+              eu, ornare libero. Aliquam dictum
+              accumsan porttitor...</p>
+          </div>
+          <div class="policy">
+            <h4 class="title">Updated Privacy Policy</h4>
+            <p class="text"> Phasellus efficitur nisi get elit
+              consectetur, eget condimentum ante
+              auctor. Cras fringilla sagittis sem in
+              mattis...</p>
+          </div>
+        </div>
+
+        <h3>Trending</h3>
+        <div class="user-list">
+          <div class="user">
+            <img src="avatars/bear.png" alt="user avatar">
+            <div>
+              <div class="username">@thebear</div>
+              <div class="description">World Peace Builder</div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="avatars/panda.png" alt="user avatar">
+            <div>
+              <div class="username">@purpett</div>
+              <div class="description">Super Cool Project</div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="avatars/weasel.png" alt="user avatar">
+            <div>
+              <div class="username">@theweasel</div>
+              <div class="description">Life Changing App</div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="avatars/dog.png" alt="user avatar">
+            <div>
+              <div class="username">@thedog</div>
+              <div class="description">No Traffic Maker</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
