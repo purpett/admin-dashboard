@@ -1,0 +1,91 @@
+.header {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem;
+    row-gap: 1.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+    & > img {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1rem;
+    }
+}
+
+.hi {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.name {
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+
+    input {
+        background-color: rgb(219, 226, 236);
+        border: transparent;
+        border-radius: 2rem;
+        padding-left: 1rem;
+        width: 30rem;
+        height: 2rem;
+    }
+}
+
+.buttons button {
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border: transparent;
+    border-radius: 2rem;
+    width: 6rem;
+    height: 2.3rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all .1s ease-in;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+
+    &:active {
+        transform: scale(1);
+        border: 1px solid rgba(0, 0, 0, .2);
+    }
+}
+
+.top-right,
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.top-right span {
+    font-weight: 500;
+}
+
+.user-logo {
+    width: 3rem;
+    height: 3rem;
+}
